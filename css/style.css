@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Rubik+Distressed&display=swap');
+
+body{
+    font-family: "Rubik Distressed";
+    font-size: 12px;
+}
+.header{
+    color: #787A80;
+    background-color: #A9A9A9;
+    max-height: 200px;
+    max-width: 1230px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 53px;
+}
+.practice{
+    background-color: indigo;
+    max-width: 1230px;
+    margin: 0 auto;
+}
+.practice__container{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-flow: row;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 37px;
+    margin-top: 37px;
+}
+.practice__grid{
+    padding: 10px;
+    background-color: #A9A9A9;
+}
+.grid__container{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    grid-template: 50px 50px 50px / 300px 300px 300px;
+    align-items: center;
+    justify-items: center;
+    border: 5px solid black;
+    margin-bottom: 37px;
+}
+.page__card{
+    font-family: Lato;
+    display: flex;
+    flex-direction: column;
+}
+.page__card:not(last-child){
+    gap: 24px;
+}
+
+.card__image{
+    width: 390px;
+    height: 240px;
+}
+.card__image img{
+    max-width: 100%;
+}
+.card__name,
+.card__info,
+.card__text{
+    margin-left: 24px;
+}
+
+.card__name{
+    background-color: #03CEA4;
+    max-width: 79px;
+    max-height: 23px;
+    padding-left: 13px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    border-radius: 4px;
+    line-height: 1.5;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+}
+.card__text{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.card__info{
+    display: flex;
+    flex-direction: row;
+}
+.card__cost{
+    padding-right: 15px;
+    color: #FF4242;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 18px;
+}
+.card__teacher{
+    padding-left: 10px;
+    position: relative;
+    color: #787A80;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.card__teacher::before{
+    content: "";
+    position: absolute;
+    background-color: #787A80;
+    width: 1px;
+    height: 16px;
+    top: 5px;
+    left: 0;
+}
+.name-blue{
+    background-color: #5A87FC;
+    max-width: 95px;
+    align-items: center;
+}
+.name-orange{
+    background-color: #F89828;
+    max-width: 107px;
+    align-items: center;
+}
+.name-pink{
+    background-color: #F52F6E;
+    max-width: 61px;
+    align-items: center;
+}
+.name-purple{
+    background-color: #7772F1;
+    max-width: 97px;
+}
+.page__container{
+    max-width: 1230px;
+    display: grid;
+    margin: 0 auto;
+    grid-template: 468px 468px 468px / 420px 420px 420px;
+}
